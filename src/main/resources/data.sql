@@ -1,0 +1,32 @@
+insert into warehouses (id, warehouseAddress, capacity) values (1, 'Room 707', 63);
+insert into warehouses (id, warehouseAddress, capacity) values (2, 'Room 1002', 81);
+insert into warehouses (id, warehouseAddress, capacity) values (3, 'Apt 1963', 94);
+insert into warehouses (id, warehouseAddress, capacity) values (4, 'Suite 13', 86);
+insert into warehouses (id, warehouseAddress, capacity) values (5, 'Room 345', 99);
+insert into warehouses (id, warehouseAddress, capacity) values (6, 'Room 892', 99);
+insert into warehouses (id, warehouseAddress, capacity) values (7, 'Apt 405', 88);
+insert into warehouses (id, warehouseAddress, capacity) values (8, 'Suite 47', 92);
+insert into warehouses (id, warehouseAddress, capacity) values (9, 'Apt 803', 80);
+insert into warehouses (id, warehouseAddress, capacity) values (10, '4th Floor', 86);
+insert into warehouses (id, warehouseAddress, capacity) values (11, 'PO Box 39020', 81);
+insert into warehouses (id, warehouseAddress, capacity) values (12, '9th Floor', 66);
+insert into warehouses (id, warehouseAddress, capacity) values (13, 'Suite 21', 88);
+insert into warehouses (id, warehouseAddress, capacity) values (14, 'Room 844', 91);
+insert into warehouses (id, warehouseAddress, capacity) values (15, '12th Floor', 73);
+
+
+insert into inventory (id, warehouse_id, item_name, quantity) values (1, 1, 'morbi a', 65);
+insert into inventory (id, warehouse_id, item_name, quantity) values (2, 2, 'accumsan tortor', 82);
+insert into inventory (id, warehouse_id, item_name, quantity) values (3, 3, 'duis aliquam', 67);
+insert into inventory (id, warehouse_id, item_name, quantity) values (4, 4, 'potenti nullam', 72);
+insert into inventory (id, warehouse_id, item_name, quantity) values (5, 5, 'quis', 61);
+insert into inventory (id, warehouse_id, item_name, quantity) values (6, 6, 'id', 92);
+insert into inventory (id, warehouse_id, item_name, quantity) values (7, 7, 'eros', 65);
+insert into inventory (id, warehouse_id, item_name, quantity) values (8, 8, 'sem', 86);
+insert into inventory (id, warehouse_id, item_name, quantity) values (9, 9, 'neque', 75);
+insert into inventory (id, warehouse_id, item_name, quantity) values (10, 10, 'turpis', 78);
+insert into inventory (id, warehouse_id, item_name, quantity) values (11, 11, 'leo', 71);
+insert into inventory (id, warehouse_id, item_name, quantity) values (12, 12, 'amet erat', 82);
+insert into inventory (id, warehouse_id, item_name, quantity) values (13, 13, 'vulputate ut', 90);
+insert into inventory (id, warehouse_id, item_name, quantity) values (14, 14, 'bibendum', 80);
+insert into inventory (id, warehouse_id, item_name, quantity) values (15, 15, 'nam tristique', 76);
